@@ -8,6 +8,7 @@ import java.util.Random;
 * (Deliberately contains bugs.)
 */
 public class TorpedoStore {
+  //Storing Random variable for reuse
   private Random random = new Random();
 
   // rate of failing to fire torpedos [0.0, 1.0]
